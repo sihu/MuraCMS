@@ -227,7 +227,7 @@ version 2 without this exception.  You may, if you choose, apply this exception 
 <cfset this.ormSettings.cfclocation=[]>
 
 <cftry>
-	<cfinclude template="#variables.context#/config/cfapplication.cfm">
+	<cfinclude template="cfapplication.cfm">
 	<cfset request.hasCFApplicationCFM=true>
 	<cfcatch>
 		<cfset request.hasCFApplicationCFM=false>
